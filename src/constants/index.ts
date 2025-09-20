@@ -135,12 +135,12 @@ const experiences: TExperience[] = [
     iconBg: "#C9CCD7",
     date: "May 2021 - Present",
     points: [
-      "Built several B2B websites using Angular, HTML, SCSS, Styled Components, and OAuth2, improving development speed by 30% and enhancing user experience for over 1,000 active business users.",
-      "Built RESTful APIs using Java Spring Boot, JWT Authentication, improving system performance and scalability while ensuring secure and maintainable code.",
-      "Developed unit and integration tests using Jest, achieving over 90% code coverage across key components which improved code reliability, enabled faster refactoring, and reduced regression bugs.",
-      "Implemented and enforced code linting using ESLint in projects, reducing code quality issues by 40% and decreasing code review time by 25%. This improved team productivity and ensured consistent coding standards across the codebase.",
-      "Used Azure DevOps/Jira to manage tasks, track progress, and coordinate sprints in Agile development environments, improving team collaboration and delivery efficiency."
-    ],
+      "Developed modern web apps using React, Next.js for enterprise platforms.",
+      "Boosted system performance and API security using JWT and REST architecture.",
+      "Improved test reliability and code quality with Jest and Playwright, achieving over 90% test coverage.",
+      "Engaged in discussions on UI ideas and application design to enhance usability and functionality.",
+      "Acted as a code reviewer and lead, ensuring codebase consistency."
+      ],
   },
   {
     title: "Software Engineer",
@@ -149,11 +149,8 @@ const experiences: TExperience[] = [
     iconBg: "#C9CCD7",
     date: "Jan 2020 - May 2021",
     points: [
-      "Built the e-commerce website using React, Nextjs, styled component, NextAuth, GoogleAPI which improved page load speed by 120%.",
-      "Developed unit and integration tests using Jest, achieving over 90% code coverage across key components which improved code reliability, enabled faster refactoring, and reduced regression bugs",
-      "Implemented and enforced code linting using ESLint in projects, reducing code quality issues by 40% and decreasing code review time by 25%. This improved team productivity and ensured consistent coding standards across the codebase.",
-      "Worked closely with UX/UI designers to translate their designs into functional web applications",
-      "Collaborated with back-end developers to improve website functionality and integrate new features."
+      "Developed and maintained web apps using React, Next.js, and Tailwind CSS.",
+      "Collaborated with designers and backend teams to deliver full product experience."
     ],
   },
 ];
@@ -189,18 +186,18 @@ const projects: TProject[] = [
   {
     name: "Global Integrated Rail Solutions",
     description:
-      "Developed a data analysis system for a train control platform. The project involved receiving signal and event data from the train system, processing and analyzing it on the server, and storing the results in a structured database. Additionally, the system could send commands and event responses back to the train system in real time, enabling two-way communication and improved operational monitoring.",
+      `Implemented shipment tracking and warehouse management features using Next.js with Server-SideRendering (SSR) and Client-Side Rendering (CSR), improving both SEO and initial load performance. Utilized Static Site Generation (SSG) for non-dynamic pages to reduce server load and improve response times.`,
     tags: [
       {
-        name: "angular",
-        color: "red-text-gradient",
+        name: "react",
+        color: "blue-text-gradient",
       },
       {
         name: "java",
         color: "green-text-gradient",
       },
       {
-        name: "ngrx",
+        name: "azure",
         color: "blue-text-gradient",
       }
     ],
@@ -208,21 +205,17 @@ const projects: TProject[] = [
     sourceCodeLink: "",
   },
   {
-    name: "Project Quality Management System",
+    name: "Support System for Qualiity Assurance",
     description:
-      "This is project quality control. The Quality Assurances will check and evaluate the project quality and then report information and records storage in systems.",
+      "Built responsive interfaces for shipment tracking and warehouse management. Integrated real-time APIs, improved system reliability with 90%+ test coverage using Jest and Playwright.",
     tags: [
       {
-        name: "angular",
-        color: "red-text-gradient",
+        name: "react",
+        color: "blue-text-gradient",
       },
       {
         name: "java",
         color: "blue-text-gradient",
-      },
-      {
-        name: "ngrx",
-        color: "pink-text-gradient",
       },
       {
         name: "azure",
@@ -233,9 +226,9 @@ const projects: TProject[] = [
     sourceCodeLink: "",
   },
   {
-    name: "E-commerce website for building materials",
+    name: "Hitachi Advance Logistics",
     description:
-      "The site feature product listings, order management, and secure online payment to support efficient sales and customer engagement. ",
+      "Implemented features to track shipments and manage warehouse data, reducing manual work by 40%. Boosted data accuracy by 30% via real-time API integration.",
     tags: [
       {
         name: "nextjs",
@@ -246,16 +239,12 @@ const projects: TProject[] = [
         color: "green-text-gradient",
       },
       {
-        name: "java",
-        color: "green-text-gradient",
-      },
-      {
         name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
     image: materialproject,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "",
   },
 ];
 
